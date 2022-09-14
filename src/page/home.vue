@@ -44,7 +44,6 @@ const makeDataRestaurant = () =>{
       three_restaurant.push(new_restaurant)
     }
   }
-  console.log("test",data_restaurant);
 } 
 onMounted(makeDataRestaurant);
 //return
