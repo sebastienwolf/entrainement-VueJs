@@ -29,7 +29,7 @@ export default {
   display: block;
   grid-template-columns: unset;
   width: 100vh;
-  padding: 20px;
+  padding: 0px 20px;
 
  /* @media only screen and (min-width: 1024px){
     display: block;
