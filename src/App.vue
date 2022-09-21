@@ -4,7 +4,8 @@
 
 <template>
   <div id="app">
- <Home/>
+ <!-- <Home/> -->
+ <router-view></router-view>
   </div>
   
 </template>
@@ -12,12 +13,12 @@
 <script lang="ts">
 // import RestaurantCard from './components/RestaurantCard.vue'
 // import RestaurantRow from './components/RestaurantRow.vue';
-import Home from './page/home.vue';
+// import Home from './page/home.vue';
 export default {
   name: 'App',
-  components : {
-    Home,
-  }
+  // components : {
+  //   Home,
+  // }
 }
 </script>
 
